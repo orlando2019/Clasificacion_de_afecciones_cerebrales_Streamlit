@@ -63,8 +63,7 @@ def main():
         predictS = model_prediction(image, model)
         st.success('### {}'.format(names[np.argmax(predictS)]))
 
-    st.markdown('<p class="footer__copy"> © Orlando Ospino H - 2023</p>',
-                unsafe_allow_html=True)
+    st.markdown('<a href="https://portafolio-osweb.netlify.app/" style="text-decoration: none;"><p class="footer__copy"> © Orlando Ospino H - 2023</p></a>',unsafe_allow_html=True)
 
 
 if __name__ == '__main__':
